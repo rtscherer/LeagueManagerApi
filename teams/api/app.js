@@ -1,6 +1,6 @@
 // SCHERER DEVELOPMENT
-// PLAYER API
-// server.js
+// TEAMS API
+// app.js
 
 // call the packages we need
 var express         = require('express');
@@ -38,4 +38,4 @@ app.use('/api', teamRouter);
 
 // start the server
 app.listen(port);
-console.log('Team API Running on Port ' + port);
+console.log('Teams API Running on Port ' + port);
